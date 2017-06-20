@@ -7,7 +7,6 @@
     * Triangle  
     * Line   
     * Vertex  
-    * Point  
 * [Logging](#)  
     This is for debugging  
 * [Gui](#)
@@ -15,3 +14,5 @@
     * Float Slider
     * Color Slider
     * Toggle button
+* [Arduino](#)  
+    * Receive data from Arduino  
