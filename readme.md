@@ -20,11 +20,20 @@
 
 
 * [Logging](https://github.com/sleepy-maker/openFrameworks101/tree/master/sampleSketch)  
-    | Processing  | openFrameworks |
+
+| Processing  | openFrameworks |
 | ------------- | ------------- |
-| println("test")  | cout << "test" << endl;  |
+| println("test")  | cout << "test" << endl |
+|                  |printf("loading circle size %d", int(circleSize)); |
+
+printf parameters(http://www.cplusplus.com/reference/cstdio/printf/)
 
 * [Gui](#)
+For using Gui class, you need to include ofxGui.h on your ofApp.h like below.  
+```cpp
+#include "ofxGui.h"
+```
+
     * Integer Slider
     * Float Slider
     * Color Slider
