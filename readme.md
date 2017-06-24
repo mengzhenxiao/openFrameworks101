@@ -4,11 +4,20 @@
 
 ### Table of contents
 * [Drawing basic shapes](https://github.com/sleepy-maker/openFrameworks101/tree/master/basicShapes)  
-    * Rectangle  
+    * Rectangl  
     * Circle  
     * Triangle  
     * Line   
     * Vertex  
+    | Processing  | openFrameworks |
+| ------------- | ------------- |
+| rect()  | ofDrawRectangle()  |
+| ellipse()  | ofDrawCircle()  |
+| triangle()  | ofDrawTriangle()  |
+| line()  | ofDrawLine()  |
+| vertex()  | ofVertex()  |
+
+
 * [Logging](https://github.com/sleepy-maker/openFrameworks101/tree/master/sampleSketch)  
     This is for debugging  
 * [Gui](#)
