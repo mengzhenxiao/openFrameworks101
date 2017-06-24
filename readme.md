@@ -3,13 +3,13 @@
 * [Slides](https://github.com/sleepy-maker/openFrameworks101/blob/master/openFrameworks101.pdf)
 
 ### Table of contents
-* [Drawing basic shapes](#)  
+* [Drawing basic shapes](https://github.com/sleepy-maker/openFrameworks101/tree/master/basicShapes)  
     * Rectangle  
     * Circle  
     * Triangle  
     * Line   
     * Vertex  
-* [Logging](#)  
+* [Logging](https://github.com/sleepy-maker/openFrameworks101/tree/master/sampleSketch)  
     This is for debugging  
 * [Gui](#)
     * Integer Slider
