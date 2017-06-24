@@ -26,5 +26,6 @@ class ofApp : public ofBaseApp{
     ofxFloatSlider circleSize;     // slider for float
     ofxIntSlider circleReso;       // slider for integer
     ofxColorSlider circleColor;    // slider for color
+    ofxToggle shapeToggle;         // toggle button
 		
 };
