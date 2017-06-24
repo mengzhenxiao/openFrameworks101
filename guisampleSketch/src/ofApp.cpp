@@ -6,6 +6,7 @@ void ofApp::setup(){
     ofColor initColor = ofColor(255,255,255, 255);
     gui.setup();
     gui.add(circleSize.setup("circle size", 50, 10, 400));
+    gui.add(shapeToggle.setup("shape toggle", true));
     gui.add(circleReso.setup("circle resolution", 20, 3, 100));
             gui.add(circleColor.setup("circle color", initColor, ofColor(0,0), ofColor(255,255) ));
     
@@ -20,10 +21,21 @@ void ofApp::update(){
 void ofApp::draw(){
     gui.draw();
     ofTranslate(ofGetWidth()/2, ofGetHeight()/2);
-    ofSetCircleResolution(circleReso);
-    ofSetColor(circleColor);
-    ofDrawCircle(0, 0, circleSize);
-    printf("loading circle size %d", int(circleSize));
+    if(shapeToggle) {
+        ofSetCircleResolution(circleReso);
+        ofSetColor(circleColor);
+        ofDrawCircle(0, 0, circleSize);
+        printf("loading circle size %d", int(circleSize));
+    } else {
+        float x = ofRandom(ofGetWidth());
+        float y = ofRandom(ofGetHeight());
+        ofSetLineWidth(circleReso);
+        for(int i=0; i<int(circleSize); i++) {
+            ofDrawLine(0, 0, x, y);
+        }
+        
+    }
+    
 
 }
 
