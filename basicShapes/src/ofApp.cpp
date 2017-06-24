@@ -67,18 +67,6 @@ void ofApp::draw(){
     }
     ofEndShape();
     ofPopMatrix();
-    
-    // point
-//    ofPushMatrix();
-//    ofTranslate(w/6*5, h/4*3);
-//    for(int i=0; i<300; i++) {
-//        float x = ofRandom(-100,100);
-//        float y = ofRandom(-100,100);
-//        ofPoint();
-//    }
-//    ofPopMatrix();
-    
-
 }
 
 //--------------------------------------------------------------
