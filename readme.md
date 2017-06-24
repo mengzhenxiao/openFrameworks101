@@ -9,7 +9,8 @@
    * Triangle  
    * Line   
    * Vertex  
-    
+   [video](https://www.instagram.com/p/BVlAv8xBcxs/)
+   
 | Processing  | openFrameworks |
 | ------------- | ------------- |
 | rect()  | ofDrawRectangle()  |
@@ -39,4 +40,6 @@ For using Gui class, you need to include ofxGui.h on your ofApp.h like below.
   * Toggle button
 ### [Arduino](#)  
    * Receive data from Arduino 
-   This sample using a button and potentiometer
+   This sample using a button and potentiometer.
+   [video](https://www.instagram.com/p/BVk0V_xht9C/)
+   
