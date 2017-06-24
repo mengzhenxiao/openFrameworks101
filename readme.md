@@ -20,7 +20,10 @@
 
 
 * [Logging](https://github.com/sleepy-maker/openFrameworks101/tree/master/sampleSketch)  
-    This is for debugging  
+    | Processing  | openFrameworks |
+| ------------- | ------------- |
+| println("test")  | cout << "test" << endl;  |
+
 * [Gui](#)
     * Integer Slider
     * Float Slider
