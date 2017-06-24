@@ -1,5 +1,7 @@
 # openFrameworks 101
 
+* [Slides](https://github.com/sleepy-maker/openFrameworks101/blob/master/openFrameworks101.pdf)
+
 ### Table of contents
 * [Drawing basic shapes](#)  
     * Rectangle  
