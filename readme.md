@@ -3,12 +3,12 @@
 * [Slides](https://github.com/sleepy-maker/openFrameworks101/blob/master/openFrameworks101.pdf)
 
 ### Table of contents
-* [Drawing basic shapes](https://github.com/sleepy-maker/openFrameworks101/tree/master/basicShapes)  
-    * Rectangl  
-    * Circle  
-    * Triangle  
-    * Line   
-    * Vertex  
+### [Drawing basic shapes](https://github.com/sleepy-maker/openFrameworks101/tree/master/basicShapes)  
+   * Rectangl  
+   * Circle  
+   * Triangle  
+   * Line   
+   * Vertex  
     
 | Processing  | openFrameworks |
 | ------------- | ------------- |
@@ -19,7 +19,7 @@
 | vertex()  | ofVertex()  |
 
 
-* [Logging](https://github.com/sleepy-maker/openFrameworks101/tree/master/sampleSketch)  
+### [Logging](https://github.com/sleepy-maker/openFrameworks101/tree/master/sampleSketch)  
 
 | Processing  | openFrameworks |
 | ------------- | ------------- |
@@ -28,15 +28,15 @@
 
 printf parameters(http://www.cplusplus.com/reference/cstdio/printf/)
 
-* [Gui](#)
+### [Gui](#)
 For using Gui class, you need to include ofxGui.h on your ofApp.h like below.  
 ```cpp
 #include "ofxGui.h"
 ```
-
-    * Integer Slider
-    * Float Slider
-    * Color Slider
-    * Toggle button
-* [Arduino](#)  
-    * Receive data from Arduino  
+  * Integer Slider
+  * Float Slider
+  * Color Slider
+  * Toggle button
+### [Arduino](#)  
+   * Receive data from Arduino 
+   This sample using a button and potentiometer
