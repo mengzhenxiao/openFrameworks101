@@ -44,4 +44,4 @@ For using Gui class, you need to include ofxGui.h on your ofApp.h like below.
    [video](https://www.instagram.com/p/BVk0V_xht9C/)
    
 
-Here is my shit(https://github.com/sleepy-maker/30days-openframeworks)
+Here is my [shit](https://github.com/sleepy-maker/30days-openframeworks)
