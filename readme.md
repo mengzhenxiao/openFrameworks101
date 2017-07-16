@@ -29,7 +29,7 @@
 
 printf parameters(http://www.cplusplus.com/reference/cstdio/printf/)
 
-### [Gui](#)
+### [Gui](https://github.com/sleepy-maker/openFrameworks101/tree/master/guisampleSketch)
 For using Gui class, you need to include ofxGui.h on your ofApp.h like below.  
 ```cpp
 #include "ofxGui.h"
@@ -38,10 +38,12 @@ For using Gui class, you need to include ofxGui.h on your ofApp.h like below.
   * Float Slider
   * Color Slider
   * Toggle button
-### [Arduino](#)  
+### [Arduino](https://github.com/sleepy-maker/openFrameworks101/tree/master/mySketch)  
    * Receive data from Arduino 
    This sample using a button and potentiometer.
    [video](https://www.instagram.com/p/BVk0V_xht9C/)
    
+
+### [Simple Particle](https://github.com/sleepy-maker/openFrameworks101/tree/master/simpleParticle)
 
 Here is my [shit](https://github.com/sleepy-maker/30days-openframeworks)
