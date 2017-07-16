@@ -45,5 +45,10 @@ For using Gui class, you need to include ofxGui.h on your ofApp.h like below.
    
 
 ### [Simple Particle](https://github.com/sleepy-maker/openFrameworks101/tree/master/simpleParticle)
+src structure
+   * ofApp.cpp
+   * ofApp.h
+   * Particle.cpp
+   * Particle.hpp
 
 Here is my [shit](https://github.com/sleepy-maker/30days-openframeworks)
