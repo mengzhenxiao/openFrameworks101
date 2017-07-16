@@ -51,4 +51,4 @@ src structure
    * Particle.cpp
    * Particle.hpp
 
-Here is my [shit](https://github.com/sleepy-maker/30days-openframeworks)
+Here is my [other openFrameworks codes](https://github.com/sleepy-maker/30days-openframeworks)
