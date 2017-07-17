@@ -9,7 +9,7 @@
 #include "Particle.hpp"
 
 
-void Particle::init(float _y, int _eSize, float _xSpeed, float _ySpeed){
+void Particle::init(float _y, float _eSize, float _xSpeed, float _ySpeed){
     xPos = ofRandom(ofGetWidth());
     yPos = _y;
     eSize = _eSize;
@@ -23,8 +23,10 @@ void Particle::init(float _y, int _eSize, float _xSpeed, float _ySpeed){
 void Particle::update() {
     xPos += xSpeed;
     yPos += ySpeed;
-    if(xPos > ofGetWidth()) xPos =0;
-    if(yPos > ofGetHeight()) yPos =0;
+//    if(xPos > ofGetWidth()) xPos = 0;
+//    if(yPos > ofGetHeight()) yPos = 0;
+    if(xPos > ofGetWidth()) xPos = ofRandom(ofGetWidth());
+    if(yPos > ofGetHeight()) yPos = ofRandom(ofGetHeight());
     
     
 }

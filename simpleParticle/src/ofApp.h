@@ -24,13 +24,20 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+    void generateParticle();
 		
 //    Particle p1, p2;
-    Particle particles[num];
+    vector<Particle> particles;
+    //Particle particles[num];
     float a,aa;
     
     ofxPanel gui;
+    ofxIntSlider particleNum;
+    ofxIntSlider pReso;
+    ofxFloatSlider cSize;
     ofxIntSlider r;
     ofxIntSlider g;
     ofxIntSlider b;
+    ofxToggle addShape;
+    ofxIntSlider sDist;
 };

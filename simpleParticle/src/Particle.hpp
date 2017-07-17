@@ -16,7 +16,7 @@ class Particle {
 public:
     float xPos, yPos, eSize, xSpeed, ySpeed;
     
-    void init(float _y, int _eSize, float _xSpeed, float _ySpeed);
+    void init(float _y, float _eSize, float _xSpeed, float _ySpeed);
     void update();
     void render();
     
